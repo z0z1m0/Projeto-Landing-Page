@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+#logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#menu_superior{
+        background-image: url(imagens/menu_sup_bg.svg);
+}
+#titulo_menu_superior{
+
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#corpo_menu_superior{
+    color: aliceblue;
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+#menu_informacional{
+    background-color: #eaece5;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto; 
+}
+.icone{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+.texto_informativo{
+    display: flex;
+    align-items: center;
+}
+#secao_video{
+    margin: 50px 0px 0px 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 50px;
+}
+#titulo_video{
+    margin-top: 25px;
+    color: #247BA0;
+
+}
+#corpo_video{
+    margin-top: 30px;
+}
+#carrossel{
+    background-color: #247BA0;
+    display: grid;
+    grid-auto-flow: row;
+    padding: 50px;
+}
+#titulo_carrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.card{
+    margin-left: 50px;
+}
+#esquerda{
+    display: none;
+}
+#esquerda:hover{
+    transform: translateX(7px);
+    transition: 0.5s;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    cursor: pointer;
+}
+#direita{
+    margin-left: 20px;
+}
+#direita:hover{
+    transform: translateX(-7px);
+    transition: 0.5s;
+}
+#formulario{
+    text-align: center;
+    align-items: center;
+}
+#titulo_formulario{
+    text-align: center;
+    color: #383838;
+    font-size: 25px;
+    margin: 25px;
+}
+button{
+    background-color: #247BA0;
+    color: white;
+    margin-top: 35px;
+    Width: 335px;
+    Height: 53px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer
+}
+button:hover{
+    background-color: #318fb8;
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px 0px #9494a7;
+}
+input{
+    font-size: 20px;
+    background-color: #EAECE5;
+    Width: 413px;
+    Height: 53px;
+    margin-top: 35px;
+    border-radius: 8px;
+    border: 0px;
+}
